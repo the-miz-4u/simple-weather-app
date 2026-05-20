@@ -1,0 +1,28 @@
+#main{
+    background-color: darkblue;
+    
+    width: 500px;
+    height: 705px;
+    border-radius: 10px;
+    
+
+}
+.header{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+   
+    font-size: large;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(2, 2, 110);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
