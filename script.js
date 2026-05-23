@@ -7,7 +7,7 @@ let temp = document.querySelector("#temperature");
 let wind = document.querySelector("#wind");
 let uv = document.querySelector("#uv");
 
-let city = "Jaipur";
+let city = prompt("plz enter the city name");
 
 async function checkWeather() {
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
